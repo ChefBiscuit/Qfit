@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QFit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_workouts">Workouts</string>
+    <string name="menu_stats">Stats</string>
+    <string name="choose_workout">Choose Workout</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="arms">Arms</string>
+    <string name="core">Core</string>
+    <string name="legs">Legs</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="confirm">Confirm</string>
+    <string name="diamond_pushups">Diamond Pushups</string>
+</resources>

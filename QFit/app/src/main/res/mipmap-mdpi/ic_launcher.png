@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.qfitv2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.qfitv2.ui.stats.StatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Workouts"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsFragment"
+        android:label="Workouts"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsArmEasy"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmEasy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsArmMed"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmMed"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsArmHard"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmMed"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsCoreEasy"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmEasy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsCoreMed"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmEasy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsCoreHard"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmEasy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsLegsEasy"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+        android:label="WorkoutsArmEasy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_WorkoutsLegsMed"
+        android:name="com.example.qfitv2.ui.workouts.WorkoutsArmEasyFragment"
+      
